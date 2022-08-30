@@ -1,0 +1,346 @@
+
+/* >= Tablet */
+@media (min-width: 740px) {
+
+}
+
+/* PC medium resolution > */
+@media (min-width: 1113px) {
+    #mobile-menu {
+        display: none;
+    }
+
+    .modal {
+        display: none;
+    }
+
+    .modal.open {
+        display: none;
+    }
+    
+}
+
+
+/* Mobile */
+@media (max-width: 740px) {
+    #mobile-menu {
+        line-height: 60px;
+        font-size: 30px;
+        width: 60px;
+        text-align: center;
+    }
+
+    #header__footer {
+        display: none;
+    }
+
+
+    .introduce__disc {
+        width: 100%;
+        overflow: initial;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        height: 200px;
+    }
+
+    .disc__content .disc__icon {
+        margin-right: 8px;
+    }
+
+    .disc__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 200px;
+        
+    }
+
+    .disc__content p {
+        width: 115px;
+        font-size: 12px;
+    }
+
+    .disc__bt {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .disc__bt p {
+        padding: 5.4px 0;
+    }
+
+    .disc__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .disc__info p {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .disc__info a {
+        font-size: 12px;
+    }
+    .container__disc-banner {
+        display: none;
+    }
+    .container__disc-introduce h3 {
+        font-size: 13px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .container__disc {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 10px;
+    }
+
+
+    #container__service {
+        height: 840px;
+    }
+
+    
+
+    .container__services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container__services-list {
+        width: 350px;
+        height: 150px;
+        margin-bottom: 16px;
+        margin: 8px auto;
+    }
+
+    .header__content-title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        flex-wrap: nowrap;
+    }
+
+    .header__content-title h1 {
+        font-weight: 800;
+        font-size: 21px;
+        margin: 0 0 8px;
+    }
+
+    .header__content-title h2 {
+        font-size: 12px;
+        color: #3a2f44;
+        font-weight: 600;
+        opacity: 0.8;
+    }
+
+    .header__content-img img {
+        width: 350px;
+        height: 250px;
+    }
+    .navbar__items {
+        display: none;
+    }
+
+    .header__content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #product__list {
+        height: 845px;
+    }
+
+    .tab-item {
+        min-width: 60px;
+        font-size: 10px;
+        margin: 0 4px;
+        padding: 8px 16px 4px 5px;
+        color: #3a2f44;
+        font-weight: 900;
+    }
+
+    .tabs .line {
+        height: 3px;
+        background: linear-gradient(to top right, #ffcc00 40%, #ffff00 100%);
+    }
+
+    .tab-pane img {
+        height: 190px;
+        width: 100%;
+    }
+
+    .lightbox-content i {
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+        flex-shrink: 0;
+        margin: 0 12px;
+      }
+
+
+      .tab-pane.active {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 320px;
+        height: 320px;
+      }
+
+      .tab-pane img {
+        margin-bottom: 12px;
+      }
+
+      .lightbox-content img {
+        max-height: 280px;
+        width: 280px;
+        object-fit: cover;
+        border-radius: 4px;
+      }
+}
+
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .modal {
+        display: none;
+    }
+
+    .modal.open {
+        display: none;
+    }
+
+    #mobile-menu {
+        display: none;
+    }
+
+
+    #header__footer {
+        margin-top: 10px;
+    }
+
+    .container__disc-banner {
+        display: none;
+    }
+
+    .header__content {
+        height: 600px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__content-title {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        flex-wrap: nowrap;
+    }
+
+    .header__content-title h1 {
+        font-weight: 700;
+        font-size: 40px;
+        margin: 0 0 8px;
+    }
+
+    .header__content-title h2 {
+        font-size: 24px;
+        color: #3a2f44;
+        font-weight: 300;
+    }
+
+    .header__content-img img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .container__about {
+        height: 500px;
+    }
+
+    .container__disc {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0;
+    }
+
+    .container__disc-introduce h3 {
+        text-align: center;
+    }
+
+    .introduce__disc {
+        justify-content: center;
+    }
+
+
+    .container__services-list {
+        margin: 0 8px;
+    }
+
+}
+
+/* > PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .modal {
+        display: none;
+    }
+
+    .modal.open {
+        display: none;
+    }
+    
+    .header__content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__content-title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        flex-wrap: nowrap;
+    }
+
+    .header__content-title h1 {
+        font-weight: 700;
+        font-size: 40px;
+        margin: 0 0 8px;
+    }
+
+    .header__content-title h2 {
+        font-size: 24px;
+        color: rgba(255, 255, 255, 0.8);
+        font-weight: 300;
+    }
+
+    .header__content-img img {
+        width: 485px;
+        height: 300px;
+    }
+
+
+}
